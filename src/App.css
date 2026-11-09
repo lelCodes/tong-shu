@@ -583,7 +583,7 @@ th.coltip:hover::after {
   font: 400 13px/1.4 var(--sans);
   white-space: normal;
   pointer-events: none;
-  animation: coltip-in 0.15s 1s both;
+  animation: coltip-in 0.15s 2s both;
 }
 
 @keyframes coltip-in {
