@@ -4,9 +4,9 @@
 
 | Measure | Lines added |
 |---|---|
-| **By Claude** | 11,394 |
+| **By Claude** | 11,412 |
 | **By the author** | 16 |
-| **Total since baseline** | 11,410 |
+| **Total since baseline** | 11,428 |
 
 Baseline commit `a09c643` (2026-10-02). Regenerate with `node scripts/ai-attribution.mjs`.
 
@@ -17,7 +17,7 @@ Baseline commit `a09c643` (2026-10-02). Regenerate with `node scripts/ai-attribu
 | `unlabeled` | 11 | 11,052 | 16 |
 | `feat` | 1 | 204 | 0 |
 | `ci` | 4 | 74 | 0 |
-| `chore` | 2 | 42 | 0 |
+| `chore` | 3 | 60 | 0 |
 | `fix` | 2 | 13 | 0 |
 | `dependabot-fix` | 2 | 9 | 0 |
 | `merge-conflict` | 1 | 0 | 0 |
@@ -48,4 +48,4 @@ Baseline commit `a09c643` (2026-10-02). Regenerate with `node scripts/ai-attribu
 - `local/**`
 - `pipeline/data/**`
 
-_Generated 2026-11-21 22:46:06Z.
+_Generated 2026-11-21 23:49:23Z.
