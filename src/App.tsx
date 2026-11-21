@@ -1,4 +1,4 @@
-// Tong Shu. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Tong Shu. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import "./App.css";
 import { useCallback, useEffect, useMemo, useState } from "react";
@@ -197,7 +197,7 @@ function App() {
       ) : null}
 
       <FooterCredits
-        licenseHref="https://github.com/lvuCodes/tong-shu/blob/main/LICENSE"
+        licenseHref="https://github.com/lelCodes/tong-shu/blob/main/LICENSE"
         year={2026}
       />
       {manifest ? <p className="updated">Data last updated {manifest.captured}</p> : null}

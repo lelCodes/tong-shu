@@ -1,4 +1,4 @@
-// Tong Shu. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Tong Shu. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import type { ReactNode } from "react";
 import { OFFICERS, TIAN_SHEN } from "../engine/dictionary";
@@ -242,7 +242,7 @@ const PRIVACY: [string, ReactNode][] = [
     "Source code",
     <>
       This site is free, open-source software. Its code is available on{" "}
-      <Ext href="https://github.com/lvuCodes/tong-shu">GitHub</Ext>.
+      <Ext href="https://github.com/lelCodes/tong-shu">GitHub</Ext>.
     </>,
   ],
 ];

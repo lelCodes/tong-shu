@@ -1,4 +1,4 @@
-// Tong Shu. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Tong Shu. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import type { ReactNode } from "react";
 import { SOURCE_LABELS, type Day } from "../engine/almanac";

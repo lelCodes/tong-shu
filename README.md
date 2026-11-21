@@ -1,6 +1,6 @@
 # tong-shu
 
-Tong Shu almanac and date-selection app, served at [lvucodes.github.io/tong-shu](https://lvucodes.github.io/tong-shu/). Every almanac value is computed in the browser with [lunar-javascript](https://www.npmjs.com/package/lunar-javascript), and bundled source snapshots for 2020 to 2035 provide the cross-check. Built from [site-template](https://github.com/lvuCodes/site-template) on **[@lvucodes/ui](https://www.npmjs.com/package/@lvucodes/ui)**.
+Tong Shu almanac and date-selection app, served at [lelcodes.github.io/tong-shu](https://lelcodes.github.io/tong-shu/). Every almanac value is computed in the browser with [lunar-javascript](https://www.npmjs.com/package/lunar-javascript), and bundled source snapshots for 2020 to 2035 provide the cross-check. Built from [site-template](https://github.com/lelCodes/site-template) on **[@lvucodes/ui](https://www.npmjs.com/package/@lvucodes/ui)**.
 
 ## Usage
 
@@ -26,4 +26,4 @@ See [AI-USAGE.md](AI-USAGE.md).
 
 ## License
 
-GNU General Public License v3.0 or later. See [LICENSE](LICENSE). Copyright © 2026 lvuCodes.
+GNU General Public License v3.0 or later. See [LICENSE](LICENSE). Copyright © 2026 lelCodes.

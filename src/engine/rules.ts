@@ -1,4 +1,4 @@
-// Tong Shu. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Tong Shu. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 // Port of pipeline/zeri.py, the reference date-selection rules.
 
 import { Lunar, LunarYear, Solar, type Lunar as LunarDay } from "lunar-javascript";

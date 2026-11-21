@@ -1,10 +1,10 @@
-// Tong Shu. Copyright (C) 2026 lvuCodes. Licensed under GPL-3.0-or-later; see LICENSE.
+// Tong Shu. Copyright (C) 2026 lelCodes. Licensed under GPL-3.0-or-later; see LICENSE.
 
 import { useEffect, useState } from "react";
 import { applyTheme, isThemeId, type ThemeId } from "@lvucodes/ui";
 
 export const SITE_THEME_KEY = "tong-shu:theme";
-export const SITE_DEFAULT_THEME: ThemeId = "lvucodes";
+export const SITE_DEFAULT_THEME: ThemeId = "lelcodes";
 
 export function loadSiteTheme(): ThemeId {
   try {

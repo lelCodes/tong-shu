@@ -12,7 +12,7 @@ import {
 } from "@lvucodes/ui";
 
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
-const LICENSE_HREF = "https://github.com/lvuCodes/tong-shu/blob/main/LICENSE";
+const LICENSE_HREF = "https://github.com/lelCodes/tong-shu/blob/main/LICENSE";
 
 // RTL's automatic cleanup only runs under vitest `globals: true`; unmount
 // explicitly so renders don't stack across tests.
@@ -36,10 +36,10 @@ describe("App", () => {
     expect(back.getAttribute("href")).toBe(BACK_LINK_DEFAULT_HREF);
   });
 
-  it("defaults this page to the lvuCodes theme", () => {
+  it("defaults this page to the lelCodes theme", () => {
     localStorage.removeItem("tong-shu:theme");
     render(<App />);
-    expect(document.documentElement.dataset.theme).toBe("lvucodes");
+    expect(document.documentElement.dataset.theme).toBe("lelcodes");
   });
 
   it("applies the theme picked from the switcher to the document element", async () => {

@@ -4,7 +4,7 @@
 
 - Fully dynamic almanac and date-selection app: every value is computed in the browser from user inputs, with no pre-built dataset.
 - Replaces the static pipeline (`build.py`, `render-html.py`, scraped JSON) while keeping its rules as the reference implementation.
-- Platform: standalone public repository `lvuCodes/tong-shu`, created from `site-template` (Vite, React 19, TypeScript, `@lvucodes/ui`) and deployed to GitHub Pages at `https://lvucodes.github.io/tong-shu/`, themed through the `@lvucodes/ui` theme switcher like the other lvucodes.github.io sites.
+- Platform: standalone public repository `lelCodes/tong-shu`, created from `site-template` (Vite, React 19, TypeScript, `@lvucodes/ui`) and deployed to GitHub Pages at `https://lelcodes.github.io/tong-shu/`, themed through the `@lvucodes/ui` theme switcher like the other lelcodes.github.io sites.
 
 ## Base
 
@@ -210,7 +210,7 @@ Top to bottom:
 
 ## Repository
 
-- Location: `~/dev/public/tong-shu`, created on GitHub with "Use this template" from `lvuCodes/site-template`.
+- Location: `~/dev/public/tong-shu`, created on GitHub with "Use this template" from `lelCodes/site-template`.
 - Branch flow: work lands on `dev`, and a pull request from `dev` to `main` promotes it. A merge to `main` triggers the Pages deploy.
 - CI: the template's reusable workflow runs `npm run verify` and the iPhone SE Playwright smoke suite on every push and pull request.
 - License: GPL-3.0-or-later, as `@lvucodes/ui` requires.
