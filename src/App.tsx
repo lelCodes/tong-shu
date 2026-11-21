@@ -2,7 +2,7 @@
 
 import "./App.css";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { BackLink, FooterCredits, ThemeSwitcher } from "@lvucodes/ui";
+import { BackLink, FooterCredits, ThemeSwitcher } from "@lelcodes/ui";
 import { loadSnapshots } from "./data/snapshots";
 import { buildRange, type Snapshots } from "./engine/almanac";
 import { derivePerson, type Person } from "./engine/rules";

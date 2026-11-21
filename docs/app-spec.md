@@ -4,11 +4,11 @@
 
 - Fully dynamic almanac and date-selection app: every value is computed in the browser from user inputs, with no pre-built dataset.
 - Replaces the static pipeline (`build.py`, `render-html.py`, scraped JSON) while keeping its rules as the reference implementation.
-- Platform: standalone public repository `lelCodes/tong-shu`, created from `site-template` (Vite, React 19, TypeScript, `@lvucodes/ui`) and deployed to GitHub Pages at `https://lelcodes.github.io/tong-shu/`, themed through the `@lvucodes/ui` theme switcher like the other lelcodes.github.io sites.
+- Platform: standalone public repository `lelCodes/tong-shu`, created from `site-template` (Vite, React 19, TypeScript, `@lelcodes/ui`) and deployed to GitHub Pages at `https://lelcodes.github.io/tong-shu/`, themed through the `@lelcodes/ui` theme switcher like the other lelcodes.github.io sites.
 
 ## Base
 
-- **App shell:** masthead with a one-line description of the Tong Shu, tabs (Date View, Calendar View, About). About holds the overview, process (with a collapsible Formulas table giving every score, rating rule, ranking key and the true solar time correction in MathML notation), a terms glossary (stems and branches, pillars, day officers with their uses, day gods by belt, solar terms and other almanac items), limitations, privacy notes and, last, the sources with each saved list's year coverage (read from the data manifest), written at an 8th-grade reading level, `@lvucodes/ui` theme tokens and theme switcher, project fonts (Atkinson Hyperlegible Next, Hepta Slab, Atkinson Hyperlegible Mono).
+- **App shell:** masthead with a one-line description of the Tong Shu, tabs (Date View, Calendar View, About). About holds the overview, process (with a collapsible Formulas table giving every score, rating rule, ranking key and the true solar time correction in MathML notation), a terms glossary (stems and branches, pillars, day officers with their uses, day gods by belt, solar terms and other almanac items), limitations, privacy notes and, last, the sources with each saved list's year coverage (read from the data manifest), written at an 8th-grade reading level, `@lelcodes/ui` theme tokens and theme switcher, project fonts (Atkinson Hyperlegible Next, Hepta Slab, Atkinson Hyperlegible Mono).
 - **Navigation:** the tab, calendar month and selected day live in the URL hash (`#calendar/2027-05/2027-05-14`), so the browser Back and Forward buttons and Cmd+[ step through them.
 - **Calendar engine:** `lunar-javascript` as a pinned npm dependency, the same 6tail rules as `lunar_python`, for pillars, solar terms, 建除, 天神, 宿, 纳音, 神煞, 宜忌 and hour data.
 - **Rules module:** JavaScript port of `zeri.py` with identical function names and outputs:
@@ -213,7 +213,7 @@ Top to bottom:
 - Location: `~/dev/public/tong-shu`, created on GitHub with "Use this template" from `lelCodes/site-template`.
 - Branch flow: work lands on `dev`, and a pull request from `dev` to `main` promotes it. A merge to `main` triggers the Pages deploy.
 - CI: the template's reusable workflow runs `npm run verify` and the iPhone SE Playwright smoke suite on every push and pull request.
-- License: GPL-3.0-or-later, as `@lvucodes/ui` requires.
+- License: GPL-3.0-or-later, as `@lelcodes/ui` requires.
 - Vite `base` stays the template's relative `./`, so assets and `public/data/` resolve under the `/tong-shu/` Pages path.
 - Privacy: nothing personal is committed. `local/` is gitignored and holds `couple.json`, the personal report build (`build.py`, `render-html.py`, `page-template.html`), its tests (`test_zeri.py`), the generated reports (`months/`, `wedding-dates.md`, `data/tong-shu.json`), saved third-party pages and HAR captures. Tests and examples in committed code use synthetic fixture people.
 - Layout:

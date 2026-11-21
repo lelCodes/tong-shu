@@ -9,7 +9,7 @@ import {
   BACK_LINK_DEFAULT_LABEL,
   DEFAULT_THEME,
   THEMES,
-} from "@lvucodes/ui";
+} from "@lelcodes/ui";
 
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const LICENSE_HREF = "https://github.com/lelCodes/tong-shu/blob/main/LICENSE";
@@ -39,7 +39,7 @@ describe("App", () => {
   it("defaults this page to the lelCodes theme", () => {
     localStorage.removeItem("tong-shu:theme");
     render(<App />);
-    expect(document.documentElement.dataset.theme).toBe("lvucodes");
+    expect(document.documentElement.dataset.theme).toBe("lelcodes");
   });
 
   it("applies the theme picked from the switcher to the document element", async () => {

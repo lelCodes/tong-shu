@@ -39,7 +39,7 @@ export default defineConfig({
     // Test files opt into jsdom per-file via `// @vitest-environment jsdom`.
     setupFiles: ["./src/test-setup.ts"],
     // Inline the package so Vite transforms its bundled CSS imports; left
-    // externalized, Node's ESM loader chokes on `@lvucodes/ui`'s `.css` side effects.
-    server: { deps: { inline: ["@lvucodes/ui"] } },
+    // externalized, Node's ESM loader chokes on `@lelcodes/ui`'s `.css` side effects.
+    server: { deps: { inline: ["@lelcodes/ui"] } },
   },
 });

@@ -1,5 +1,5 @@
 /* The theme palettes (--bg, --accent, --item-N, color-scheme, …) ship with the
-   package and are imported in main.tsx via `@lvucodes/ui/theme.css`. This file
+   package and are imported in main.tsx via `@lelcodes/ui/theme.css`. This file
    owns only the site's base document styles, all derived from those palette
    tokens so they track the active theme. */
 :root {

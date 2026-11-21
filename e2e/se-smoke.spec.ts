@@ -1,3 +1,3 @@
-import { defineSeSmoke } from "@lvucodes/ui/se-smoke";
+import { defineSeSmoke } from "@lelcodes/ui/se-smoke";
 
 defineSeSmoke();
