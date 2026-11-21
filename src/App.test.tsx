@@ -39,7 +39,7 @@ describe("App", () => {
   it("defaults this page to the lelCodes theme", () => {
     localStorage.removeItem("tong-shu:theme");
     render(<App />);
-    expect(document.documentElement.dataset.theme).toBe("lelcodes");
+    expect(document.documentElement.dataset.theme).toBe("lvucodes");
   });
 
   it("applies the theme picked from the switcher to the document element", async () => {
