@@ -48,4 +48,4 @@ Baseline commit `a09c643` (2026-10-02). Regenerate with `node scripts/ai-attribu
 - `local/**`
 - `pipeline/data/**`
 
-_Generated 2026-11-21 23:49:23Z.
+_Generated 2026-11-22 00:49:04Z.
